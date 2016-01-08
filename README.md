@@ -1,4 +1,4 @@
-# luminus-repl
+# luminus-nrepl
 
 nREPL adapter for Luminus
 
