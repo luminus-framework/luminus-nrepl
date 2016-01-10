@@ -1,4 +1,4 @@
-(defproject luminus-nrepl "0.1.0"
+(defproject luminus-nrepl "0.1.1"
   :description "nREPL server for Luminus"
   :url "https://github.com/luminus-framework/luminus-nrepl"
   :license {:name "Eclipse Public License"
