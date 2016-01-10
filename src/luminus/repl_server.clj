@@ -15,7 +15,7 @@
    an optional parameters map. The :bind, :transport-fn, :handler,
    :ack-port and :greeting-fn will be forwarded to
    clojure.tools.nrepl.server/start-server as they are."
-  [port & [{:keys [bind transport-fn handler ack-port greeting-fn]}]]
+  [{:keys [port bind transport-fn handler ack-port greeting-fn]}]
   (if @nrepl-server
     (log/error "nREPL is already running!")
     (try
