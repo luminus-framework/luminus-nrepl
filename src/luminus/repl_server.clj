@@ -1,5 +1,5 @@
 (ns luminus.repl-server
-  (:require [clojure.tools.nrepl.server :as nrepl]
+  (:require [nrepl.server :as nrepl]
             [clojure.tools.logging :as log]))
 
 (defn start
@@ -24,4 +24,3 @@
 (defn stop [server]
   (nrepl/stop-server server)
   (log/info "nREPL server stopped"))
-
